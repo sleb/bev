@@ -1,5 +1,13 @@
-<h1>Beverly Park Attendance</h1>
-<nav>
-  <a routerLink="/role" routerLinkActive="active">Role</a>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a href="/" class="navbar-brand">BP Attendance</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a routerLink="/role" class="nav-link" routerLinkActive="active">Take Role</a>
+      <a routerLink="/settings" class="nav-link" routerLinkActive="active">Settings</a>
+    </div>
+  </div>
 </nav>
 <router-outlet></router-outlet>
